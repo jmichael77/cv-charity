@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:200,400,700|Poppins:300,400,500');
+
+body {
+  font-family: Muli, sans-serif;
+  background: #ffffff;
+}
+
+/* All Buttons */
+
+.btn-large {
+  border-radius: 5px;
+}
+
+/* NavBar Section */
+
+#logo {
+  padding: 0 10px;
+  width: 200px;
+}
+
+#jayd-nav {
+  height: 75px;
+}
+
+ul li a {
+  color: #37474f;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.burger {
+  color: #37474f;
+}
+
+@media (min-width: 320px) and (max-width: 745px) {
+
+  #jayd-nav {
+    text-align: center;
+  }
+
+}
+
+/* First Parallax Section */
+
+#para-1-img {
+  margin-bottom: 10%;
+}
+
+#my-name {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.info {
+  font-size: 35px;
+  font-family: poppins, sans-serif;
+  font-weight: 300;
+  line-height: 38px;
+}
+
+#plane-animate {
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+#plane-animate:hover {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+
+/* Work Highlights Section */
+
+h2 {
+  color: #37474f;
+  font-weight: 300;
+  font-family: muli, sans-serif;
+}
+
+.card .card-reveal .card-title {
+  font-weight: 700;
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.card-image {
+    height: auto;
+}
+
+@media (min-width: 1700px) {
+
+  .card-image {
+    height: 200px;
+  }
+
+}
+
+/* Second Parallax Section */
+
+#para-2 {
+  height: 300px;
+  margin-top: 5%;
+}
+
+/* About Me Section */
+
+@media (max-width: 568px) {
+  .img-circle {
+    width: 100%;
+  }
+
+}
+
+.img-circle {
+  border-radius: 10%;
+}
+
+.profile-pic {
+  margin: 16px 0;
+}
+
+.about-me {
+  font-size: 16px;
+}
+
+b {
+  font-size: 18px;
+}
+
+#about > div.row.center-align {
+  margin-bottom: 0;
+}
+
+
+/* Third Parallax Section */
+
+#para-3 {
+  margin-top: 3%;
+  height: 300px;
+}
+
+#para-3-img {
+  margin-bottom: -20%;
+}
+
+/* Contact Section */
+
+@media (min-width: 1250px) {
+  #contact-social > div > a > img {
+    width: 5%
+  }
+
+}
+
+.social {
+  width: 10%;
+  margin: 2% 1% 1% 2%;
+}
+
+#contact-social {
+  margin-bottom: 0%;
+}
+
+.social {
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+.social:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+#contact-social > div > a:nth-child(1) > img {
+  margin-left: 0;
+}
