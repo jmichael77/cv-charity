@@ -32,27 +32,24 @@ ul li a {
   color: #37474f;
 }
 
-@media (min-width: 320px) and (max-width: 745px) {
-
-  #jayd-nav {
-    text-align: center;
-  }
-
-}
-
 /* First Parallax Section */
+
+h4 {
+  color: #37474f;
+  line-height: 50px;
+}
 
 #para-1-img {
   margin-bottom: 10%;
 }
 
 #my-name {
-  font-size: 40px;
+  font-size: 3.56rem;
+  line-height: 48px;
   font-weight: 500;
 }
 
 .info {
-  font-size: 35px;
   font-family: poppins, sans-serif;
   font-weight: 300;
   line-height: 38px;
@@ -69,7 +66,7 @@ ul li a {
 }
 
 
-/* Work Highlights Section */
+/* Research Section */
 
 h2 {
   color: #37474f;
@@ -90,6 +87,12 @@ h2 {
     height: auto;
 }
 
+.research-headers {
+  font-weight: bold;
+  text-align: left;
+  font-size: 28px;
+}
+
 @media (min-width: 1700px) {
 
   .card-image {
@@ -105,25 +108,18 @@ h2 {
   margin-top: 5%;
 }
 
-/* About Me Section */
-
-@media (max-width: 568px) {
-  .img-circle {
-    width: 100%;
-  }
-
+.btn-large {
+  background-color: #039be5;
 }
 
-.img-circle {
-  border-radius: 10%;
+/* About Section */
+
+.about {
+  font-size: 20px;
 }
 
-.profile-pic {
-  margin: 16px 0;
-}
-
-.about-me {
-  font-size: 16px;
+#about-row {
+  padding-bottom: 20px;
 }
 
 b {
@@ -134,6 +130,10 @@ b {
   margin-bottom: 0;
 }
 
+.bold-text {
+  font-size: 20px;
+  font-weight: bold;
+}
 
 /* Third Parallax Section */
 
@@ -156,8 +156,8 @@ b {
 }
 
 .social {
-  width: 10%;
-  margin: 2% 1% 1% 2%;
+  width: 7%;
+  margin: 2%;
 }
 
 #contact-social {
@@ -176,4 +176,22 @@ b {
 
 #contact-social > div > a:nth-child(1) > img {
   margin-left: 0;
+}
+
+/* MOBILE MEDIA QUERY's */
+
+@media  (max-width: 745px) {
+
+  #jayd-nav {
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  #my-name {
+    font-size: 16px;
+  }
+
 }
