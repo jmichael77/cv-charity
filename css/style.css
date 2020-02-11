@@ -93,14 +93,6 @@ h2 {
   font-size: 28px;
 }
 
-@media (min-width: 1700px) {
-
-  .card-image {
-    height: 200px;
-  }
-
-}
-
 /* Second Parallax Section */
 
 #para-2 {
