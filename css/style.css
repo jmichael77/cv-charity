@@ -170,6 +170,13 @@ b {
   margin-left: 0;
 }
 
+/* FOOTER SECTION */
+
+.page-footer {
+    padding-top: 0;
+    background-color: #ffffff;
+}
+
 /* MOBILE MEDIA QUERY's */
 
 @media  (max-width: 745px) {
